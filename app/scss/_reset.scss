@@ -23,8 +23,8 @@ h5,
 h6,
 p,
 /* У всех ol ul (у к.т. есть атрибут class) обнуляю внутренние отступы */
-ul[class],
-ol[class],
+ul,
+ol,
 li,
 figure,
 figcaption,
@@ -54,6 +54,6 @@ select {
   /*наследование шрифтов*/
 }
 
- a [class] {
+ a[class] {
     text-decoration: none;
   }
