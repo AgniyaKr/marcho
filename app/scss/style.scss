@@ -553,7 +553,8 @@ footer {
       font-size: 48px;
       @extend %roboto-700;
       // margin-bottom: 7px;
-      margin: 12px 0 0;
+      margin: 12px 0 0
+      ;
       color: $title;
       line-height: 1;
    }
