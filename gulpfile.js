@@ -39,7 +39,9 @@ function scripts() {
     'node_modules/slick-carousel/slick/slick.js',
     'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js',
     'node_modules/rateyo/src/jquery.rateyo.js',
-
+    'node_modules/ion-rangeslider/js/ion.rangeSlider.js',
+    'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
+    
     'app/js/main.js'
   ])
   .pipe(concat('main.min.js'))
@@ -107,3 +109,36 @@ exports.build       = series(cleanDist, images, build);
 exports.default     = parallel(styles, scripts, browsersync, watching);
 // прописывает для того чтобы все запускалось паралельно при 
 // прописывании в консоле команды gulp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
