@@ -118,3 +118,13 @@ $(function(){
   // прописываем дату в HTML
   initializeClock('promo__clock', deadline);
 });
+
+
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 40.74502670274606, lng: -73.9824690308315 },
+    zoom: 12,
+  });
+}
