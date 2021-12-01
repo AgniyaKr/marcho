@@ -6,7 +6,11 @@ const concat               = require('gulp-concat');
 const autoprefixer         = require('gulp-autoprefixer');
 const uglify               = require('gulp-uglify');
 const imagemin             = require('gulp-imagemin');
-// import imagemin from 'gulp-imagemin';                  
+// import imagemin from 'gulp-imagemin';
+const rename                = require('gulp-rename');
+
+const nunjucksRender       = require('gulp-nunjucks-render');
+
 const del                  = require('del');
 // чтобы папка dist перезаписывалась каждый раз и в ней не было ничего лишнего
 const browserSync          = require('browser-sync').create();
@@ -21,10 +25,23 @@ function browsersync() {
   })
 }
 
+function nunjucks() {
+  return src ('app/*.njk')
+  .pipe(nunjucksRender())
+  .pipe(dest('app'))
+  .pipe(browserSync.stream())
+}
+
 function styles() {
-  return src('app/scss/style.scss')
-    .pipe(scss({outputStyle: 'compressed'}))
-    .pipe(concat('style.min.css'))
+  // return src('app/scss/style.scss')
+      // заменяем эту строку перед тем как хотим работать с модульной адаптивностью(нунчаки) на...
+  return src('app/scss/*.scss')
+  .pipe(scss({outputStyle: 'compressed'}))
+    // .pipe(concat('style.min.css'))
+    // убитраем эту строку перед тем как хотим работать с модульной адаптивностью(нунчаки)
+    .pipe(rename({
+      suffix : '.min'
+    }))
     .pipe(autoprefixer({
       overrideBrowserslist: ['last 10 version'],
       grid: true
@@ -89,8 +106,13 @@ function cleanDist() {
 
 
 function watching() {
-  watch(['app/scss/**/*.scss'], styles);
+  watch(['app/**/*.scss'], styles);
   // автоматически следит за файлами с расширением .scss в проекте
+  watch(['app/*.njk'], nunjucks);
+  // автоматически следит за файлами с расширением .njk в проекте
+  watch(['app/js/**/*.js', '!app/js/main.min.js'], scripts); 
+  // автоматически следит за файлами с расширением .js в проекте
+
   watch(['app/js/**/*.js', '!app/js/main.min.js'], scripts); 
   // автоматически следит за файлами с расширением .js в проекте
   watch(['app/**/*.html']).on('change', browserSync.reload);
@@ -102,11 +124,12 @@ exports.scripts     = scripts;
 exports.browserSync = browsersync;
 exports.watching    = watching;
 exports.images      = images;
+exports.nunjucks    = nunjucks;
 exports.cleanDist   = cleanDist;
 exports.build       = series(cleanDist, images, build);
 
 
-exports.default     = parallel(styles, scripts, browsersync, watching);
+exports.default     = parallel(nunjucks, styles, scripts, browsersync, watching);
 // прописывает для того чтобы все запускалось паралельно при 
 // прописывании в консоле команды gulp
 
