@@ -1,0 +1,148 @@
+[33mcommit d730cd8b4782ea552e1f35460302b731ed1b6cd4[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m)[m
+Merge: ec347a5 282f537
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Wed Dec 1 10:18:36 2021 +0200
+
+    added module
+
+[33mcommit ec347a5eacebb4d9616931c515531f08858a2d93[m[33m ([m[1;31morigin/dev[m[33m)[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Wed Dec 1 10:04:13 2021 +0200
+
+    first commit
+
+[33mcommit 073e4128618e2cd2844bdc1dfb15c84a3dbc9447[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Mon Nov 29 10:57:10 2021 +0200
+
+    blog-one
+
+[33mcommit a5987523dd29684e9022a38fe467019eea452938[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Fri Nov 26 19:53:32 2021 +0200
+
+    added blog page
+
+[33mcommit 7f7455607cdccd6a7d0816f1d4c45a06f15651bf[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Nov 23 20:37:37 2021 +0200
+
+    added contacs
+
+[33mcommit 282f5375138b4952280761df32c8e23ad272339c[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 8e94c7a 771cc97
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Nov 23 13:01:33 2021 +0200
+
+    Merge branch 'main' of https://github.com/AgniyaKr/marcho
+
+[33mcommit 6815c10cd07dbfaacecfdc74d17157371939cfbd[m[33m ([m[1;32mbranch-main[m[33m)[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Nov 23 12:51:08 2021 +0200
+
+    added product page
+
+[33mcommit c7d37e02d837292c907f0e180a1688112fe6bec3[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Nov 16 11:31:57 2021 +0200
+
+    after
+
+[33mcommit 126be025adc08d63e3e677890eb594949c68f9a4[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Wed Nov 10 10:53:54 2021 +0200
+
+    added shop page
+
+[33mcommit 0f40defb0ecea39d0831057081b802670754a691[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Oct 26 13:43:45 2021 +0300
+
+    added 404 page
+
+[33mcommit d5b25b7701d3ffbd94680acaab50cff7b7ba71ec[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Oct 26 12:48:50 2021 +0300
+
+    added register
+
+[33mcommit cfd4d509204ee34654c83e9a92252cd31d24ed68[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Oct 26 12:34:21 2021 +0300
+
+    added login page
+
+[33mcommit 09b5cf042d56b91518895183541d435ccf72302d[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Sun Oct 24 20:26:26 2021 +0300
+
+    added blog
+
+[33mcommit a099f218aa92a0ee6bfd0f65c57994ae0cc38ad8[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Wed Oct 20 20:28:25 2021 +0300
+
+    added promo and partners
+
+[33mcommit 2ba2fa21ce2fa98b5ce015cefde53249f36ed4ec[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Wed Oct 20 20:26:51 2021 +0300
+
+    added promo and partners
+
+[33mcommit 8e94c7a59b98a4d3b91f887172fe30cec5981c30[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Mon Oct 18 21:08:33 2021 +0300
+
+    added product
+
+[33mcommit 9d2d6244fe402c1dcbd5983f01be98959097832f[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Sat Oct 16 18:47:53 2021 +0300
+
+    section 2
+
+[33mcommit 9dd4afda8a8ac72203eff2a077eb8492ff98ea11[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Oct 12 16:56:35 2021 +0300
+
+    added categories section
+
+[33mcommit 7dd48d486745ab1227f12bf37f98071ee75b885b[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Thu Oct 7 19:01:52 2021 +0300
+
+    added top-slider section
+
+[33mcommit d0444c10711eeab61cba547c3a77153b64686a68[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Thu Oct 7 11:52:25 2021 +0300
+
+    fix fonts
+
+[33mcommit 771cc9719467d6255cc4d999bdd9a2bf9cc5365f[m
+Merge: a593b74 43e8d41
+Author: AgniyaKr <87370917+AgniyaKr@users.noreply.github.com>
+Date:   Tue Oct 5 17:18:15 2021 +0300
+
+    Merge pull request #1 from AgniyaKr/dev
+    
+    Dev
+
+[33mcommit 43e8d413bf27be577d64c3c504c092da20e66c13[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Oct 5 16:46:30 2021 +0300
+
+    added footer
+
+[33mcommit 8d64a59ddb7e722087a48778812d1b3c4e548927[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Thu Sep 16 12:49:21 2021 +0300
+
+    added header, added fonts
+
+[33mcommit a593b74c8ddbad6d5b2fd252397a8521ab70170a[m
+Author: AgniyaKr <inkr3891@gmail.com>
+Date:   Tue Sep 14 19:04:28 2021 +0300
+
+    start project
