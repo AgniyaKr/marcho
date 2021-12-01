@@ -1,7 +1,7 @@
 $accent: #fe3e57;
-$default:#8d8d8d;
-$title:#29282d;
-$bg:#f6f6f6;
+$default: #8d8d8d;
+$title: #29282d;
+$bg: #f6f6f6;
 
 %quicksand-400 {
   font-family: "Quicksand-Regular", sans-serif;
@@ -24,6 +24,7 @@ $bg:#f6f6f6;
 }
 
 %btn {
+<<<<<<< HEAD
   padding: 12px 26px;
   text-transform: uppercase;
   color: #ffffff;
@@ -41,3 +42,21 @@ $bg:#f6f6f6;
   clip: rect(0 0 0 0);
   position: absolute;
 }
+=======
+  background-color: $accent;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 12px 26px;
+  @extend %roboto-400;
+  box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
+
+ 
+>>>>>>> 282f5375138b4952280761df32c8e23ad272339c

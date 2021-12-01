@@ -24,11 +24,17 @@
     "imagemin": "^7.0.1",
     "ion-rangeslider": "^2.3.1",
     "jquery": "^3.6.0",
+<<<<<<< HEAD
     "jquery-form-styler": "^2.0.2",
     "rateyo": "^2.3.2",
     "sass": "^1.38.0",
     "slick-carousel": "^1.8.1",
     "stylelint": "^14.1.0",
     "stylelint-config-recommended-scss": "^5.0.2"
+=======
+    "rateyo": "^2.3.2",
+    "sass": "^1.38.0",
+    "slick-carousel": "^1.8.1"
+>>>>>>> 282f5375138b4952280761df32c8e23ad272339c
   }
 }
